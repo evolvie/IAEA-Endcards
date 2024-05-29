@@ -94,17 +94,14 @@
             </td>
         </tr>
     </table>
-    <script>
-        // Autoplay and loop for each video
-        var videos = document.querySelectorAll('.wistia_embed');
-        videos.forEach(function(video) {
-            video = Wistia.embed(video);
-            video.bind('play', function() {
-                video.play();
-                video.bind('end', function() {
-                    video.play();
-                });
-            });
+ <script>
+        window._wq = window._wq || [];
+        window._wq.push({
+            id: "deo1161y7s",
+            options: {
+                autoPlay: true,
+                loop: true
+            }
         });
     </script>
 </body>
